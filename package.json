@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "type": "module",
+  "exports": {
+    ".": "./src/sdk/index.js"
+  },
   "scripts": {
     "dev": "node build.js",
     "build": "node build.js --prod",
